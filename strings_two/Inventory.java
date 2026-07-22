@@ -9,7 +9,7 @@ public class Inventory {
         String bName = "Asus";
         int pId = 123456;
         String pCode= generateCode(pName, bName, pId); 
-        System.out.println("Generated Product Code: " + pCode);
+        System.out.println("Generated Product Id: " + pCode);
     }
     public static String generateCode(String pName, String bName, int pId) {
         String productCode = pName.substring(0, 3).toUpperCase() +
