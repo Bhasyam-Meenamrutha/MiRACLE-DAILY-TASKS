@@ -19,7 +19,6 @@ public class Banking {
         boolean hasLowercase = false;
         boolean hasDigit = false;
         boolean hasSpecialChar = false;
-
         String splChar = "!@#$%^&*()-+";
 
         for (char c : password.toCharArray()) {
