@@ -1,4 +1,4 @@
-package opps;
+package oops;
 //Create a subclass called HRManager that overrides the work() method and adds a new method called addEmployee().
 public class HrManager extends Employe {
     

@@ -1,4 +1,4 @@
-package opps;
+package oops;
 //Write a Java program to create a class called Employee with methods called work() and getSalary().
 public class Employe {
      void work(){

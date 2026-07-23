@@ -1,4 +1,4 @@
-package opps;
+package oops;
 //Program to Show Overloading of Methods in Class
 public class Overloading {
     

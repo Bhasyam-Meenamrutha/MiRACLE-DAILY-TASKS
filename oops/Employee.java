@@ -1,4 +1,4 @@
-package opps;
+package oops;
 
 public class Employee extends Person {
  

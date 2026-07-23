@@ -1,8 +1,8 @@
-package opps;
+package oops;
 // Write a Java program to create a class known as Person with methods called getFirstName() and getLastName().
 public class Person {
-    String firstName;
-    String lastName;
+    private String firstName;
+    private String lastName;
 
     Person(){
 

@@ -1,4 +1,4 @@
-package opps;
+package oops;
 
 
 //Program to Show Overriding of Methods in Classes
