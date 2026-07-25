@@ -15,3 +15,13 @@
 /InvalidAadharException.class
 /InvalidDepositException.class
 /InvalidPanException.class
+/OnlineShoppingCheckout.class
+/InsufficntQuantity.class
+/UnderPrice.class
+/InvalidAddress.class
+/InsufficientQuantity.class
+/ATMSystem.class
+/InsufficientBalanceException.class
+/InvalidAmountException.class
+/EmployeeManagement.class
+/Employee.class

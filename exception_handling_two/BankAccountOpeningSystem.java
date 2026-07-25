@@ -35,7 +35,7 @@ public class BankAccountOpeningSystem {
 	}
 	
 	public static void validateAadhar(String aadhar) throws InvalidAadharException{
-		if(aadhar.length()!=10 || !aadhar.matches("\\d{12}"))
+		if(aadhar.length()!=12 || !aadhar.matches("\\d{12}"))
 			throw new InvalidAadharException("Aadhaar must contain exactly 12 digits.");
 			
 	}
@@ -62,6 +62,21 @@ public class BankAccountOpeningSystem {
 			System.out.println("Enter PAN Number:");
 			String pan=sc.next();
 			validatePan(pan);
+			System.out.println("Enter Intital Deposit Amount Number:");
+			double deposite=sc.nextDouble();
+			validateDeposite(deposite);
+			System.out.println("Enter Mobile No: ");
+			String mobile=sc.next();
+			validatePhone(mobile);
+			System.out.println("Thank You");
+			
+			
+		}catch(InvalidAadharException | 
+				InvalidPanException | 
+				InvalidDepositException | 
+				InvalidPhoneException e) {
+			System.out.println("Account Creation Failed!"+e.getMessage());
+			
 		}
 
 	}

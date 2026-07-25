@@ -13,6 +13,6 @@ public class ThrowsEx {
             System.out.println("Cannot divide by zero.");
         }
 
-        System.out.println("Program continues...");
+        System.out.println("Program completed");
     }
 }
