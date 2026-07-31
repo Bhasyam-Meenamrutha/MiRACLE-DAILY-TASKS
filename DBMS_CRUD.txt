@@ -1,0 +1,22 @@
+create database Miracle;
+use Miracle;
+create table Trainee(id int , name varchar(20), email varchar(50), phone int );  
+Alter table Trainee modify column id int primary key;
+insert into Trainee values(6488,'Meenamrutha','mbhasyam@miraclesoft.com',1890654345);
+insert into Trainee values(6484,'Nithin Sai','nboggarapu@miraclesoft.com',0987654321);
+insert into Trainee values(6486,'Pavani','pthatikonda@miraclesoft.com',1889654345);
+insert into Trainee values(6499,'Manish','manish@miraclesoft.com',1986754345);
+select * from Trainee;
+desc Trainee;
+Alter table Trainee rename column phone  to mobile ;
+Alter table Trainee rename to SoftwareTrainee;
+select * from SoftwareTrainee;
+update SoftwareTrainee set mobile=1234567899 , email='nithin@miraclesoft.com' where id=6484 ;
+update SoftwareTrainee set mobile=1234561111 , email='pavani@miraclesoft.com' where id=6486 ;
+update SoftwareTrainee set mobile=1987654345 where id=6499;
+delete from SoftwareTrainee where id=6499;
+select name from SoftwareTrainee where name like 'm%' ;
+select name from SoftwareTrainee where name like '%i';
+truncate table SoftwareTrainee;
+drop table SoftwareTrainee;
+
